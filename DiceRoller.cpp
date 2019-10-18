@@ -4,23 +4,22 @@
 
 #include "DiceRoller.h"
 #include "CSVReader.h"
-#include <iostream>
-#include <string>
-#include <iomanip>
-#include <fstream>
-#include <vector>
 
+#include <iomanip>
 
 DiceRoller::DiceRoller():num_of_random_num(0),random_num_vec(0,0),read_position(0){}
 
 DiceRoller::DiceRoller(const std::string& rule_file_name){
-  std::cout<<"just open the random number file"<<std::endl;
+  //std::cout<<"just open the random number file"<<std::endl;
 
   CSVReader reader(rule_file_name);
   num_of_random_num = 0;
+  read_position = 0;
   while(!reader.file.eof()) {
     num_of_random_num ++;
-    random_num_vec.push_back(reader.readNextLineAsInt());
+    int temp;
+    reader.file>>temp;
+    random_num_vec.push_back(temp);
 
   }
   /*FILE* file;
@@ -47,16 +46,12 @@ DiceRoller::DiceRoller(const std::string& rule_file_name){
   }
   */
 
-  std::cout<<"read all the random numbers"<<std::endl;
-  std::cout<<"num_of_random_num"<<num_of_random_num - 1<<std::endl;
-  std::cout<< "last number" << random_num_vec[3]<<std::endl;
-
-
-
-  read_position = 0;
+  //std::cout<<"read all the random numbers"<<std::endl;
+ // std::cout<<"num_of_random_num"<<num_of_random_num - 1<<std::endl;
+  //std::cout<< "last number" << random_num_vec[3]<<std::endl;
 }
 
-std::vector<int>& DiceRoller::get_random_num_vec(){
+std::vector<int> DiceRoller::get_random_num_vec(){
     return random_num_vec;
 };
 
@@ -64,9 +59,10 @@ std::vector<int>& DiceRoller::get_random_num_vec(){
   return num_of_random_num;
 }*/
 
- unsigned int DiceRoller :: get_num_from_vec(){
-  unsigned int dice = get_random_num_vec()[read_position] %6 +1;
-  read_position = (read_position + 1) % num_of_random_num;
+int DiceRoller :: roll_dice(){ // roll_dice()
+   dice = (random_num_vec[read_position] %6) + 1;
+   read_position = (read_position + 1) % num_of_random_num;
+   return dice;
 }
 
 

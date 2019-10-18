@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include <vector>
+#include <fstream>
 
 #ifndef MONOPOLYC_V2_DICEROLLER_H
 #define MONOPOLYC_V2_DICEROLLER_H
@@ -10,13 +11,16 @@ class DiceRoller{
  public:
   DiceRoller();
   DiceRoller(const std::string& rule_file_name);
-  std::vector<int>& get_random_num_vec();
-  unsigned int get_num_from_vec();
+  std::vector<int> get_random_num_vec();
+  int roll_dice();
   void add_num_to_vec(int num);
 
  private:
-  std::vector<int> random_num_vec;
   int num_of_random_num;
+
+  std::vector<int> random_num_vec;
   int read_position;
+  int dice;
+
 };
 #endif //MONOPOLYC_V2_DICEROLLER_H

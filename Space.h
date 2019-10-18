@@ -21,13 +21,28 @@ class Space{
   Space(CSVReader& reader);
   std::vector<Player*>& get_players_vect_ptr();
   void print_space_name();
-  Go creat_go(CSVReader reader);
+  int get_ownerId();
+
+  /*Go*& get_goptr();
+  Property* get_proptr();
+   */
+  std::shared_ptr<Go> get_goptr();
+  std::shared_ptr<Property> get_proptr();
 
 
-    private:
+  void set_ownerId( int i);
+  std::string get_space_name();
+  bool owned_whole_Set();
+
+
+ private:
   SpaceType spaceType;
-  Go* goptr;
-  Property* proptr;
+  std::shared_ptr<Go> goptr;
+  std::shared_ptr<Property> proptr;
+  //Go* goptr;
+  //Property* proptr;
+  int ownerId;
+  std::string owner_name;
 
   std::vector<Player*> players_vect_ptr;
 };

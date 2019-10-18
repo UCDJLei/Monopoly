@@ -21,12 +21,14 @@ class CSVReader{
   //unsigned int readNextFieldAsLong();
   int readNextLineAsInt() ;
 
+  //
   std::string readNextStuffAsString();
   int readNextStuffAsInt();
   void voidUntilDelim(const std::string& delims);
 
 
-    private:
+
+ private:
   std::string fileName;
 
 

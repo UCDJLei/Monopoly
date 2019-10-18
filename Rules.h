@@ -10,6 +10,12 @@ class Rules{
  public:
     Rules();
     Rules(const std::string& file_name);
+  int get_salary_multiplier_for_landing_on_go();
+  int get_starting_cash();
+  int get_turn_limit();
+  int get_number_of_players_left_to_end_game();
+  int get_property_set_multiplier();
+
  private:
 
   int starting_cash;

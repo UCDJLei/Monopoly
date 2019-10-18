@@ -5,11 +5,7 @@
 #include <utility>
 #include <memory>
 #include "Space.h"
-#include <stdio.h>
-#include "SpaceType.h"
-#include "CSVReader.h"
-#include "Go.h"
-#include "Property.h"
+
 
 
 /*Space::Space(){
@@ -20,27 +16,27 @@
 }*/
 
 Space::Space(CSVReader& reader){
-  std::string type_space = reader.readNextFieldAsString();
-  spaceType = string2SpaceType(type_space);
-  std::cout<<"after reading the space type"<< std::endl;
+  //std::string type_space = reader.readNextFieldAsString();
+  spaceType = string2SpaceType(reader.readNextFieldAsString());
+ // std::cout<<"after reading the space type"<< std::endl;
   //Space(spaceType,reader);
   switch (spaceType) {
     case SpaceType::goSpace : {
       Go go(reader);
-      std::cout<<"after creat a go"<< std::endl;
+      goptr = std::make_shared<Go> (go);
+      //go = new Go(reader);
+    //  std::cout<<"after create a go"<< std::endl;
+      //goptr = &go;
+      ownerId = -2;
 
-      goptr = &go;///something wrong here
-      std::cout<<"after creat a go"<< std::endl;
 
-      // goptr = std::make_unique<Go>(go); ///??????
-      //proptr = nullptr;
     }
       break;
     case SpaceType::PropertySpace: {
       Property property(reader);
-      proptr = &property;
-      // proptr = std::make_unique<Property>(property); ///??????
-      // goptr = nullptr;
+     // std::cout<<"after creat a property"<< std::endl;
+      proptr = std::make_shared<Property> (property);
+      ownerId = -1;
     }
       break;
 
@@ -76,15 +72,43 @@ Space::Space(SpaceType spaceType,CSVReader reader) {
  */
  void Space::print_space_name(){
   if(goptr != nullptr){
-    std::cout<< "This is a go space, its name is  "<<goptr->name;
+    std::cout<<goptr->name;
   }
   else if (proptr != nullptr){
-    std::cout<< "This is a property space, its name is  "<<proptr->name;
+    std::cout<<proptr->name;
 
   }
 }
 
-Go Space ::creat_go(CSVReader reader){
-  Go go(reader);
-  return go;
+std::string Space::get_space_name() {
+  if(goptr != nullptr){
+    return goptr->name;
+  }
+  else if (proptr != nullptr){
+    return proptr->name;
+  }
+  return "";
 }
+
+int Space::get_ownerId(){
+  return  ownerId;
+}
+
+std::shared_ptr<Go> Space::get_goptr(){
+  return goptr;
+}
+
+void Space::set_ownerId( int i){
+  ownerId = i;
+}
+
+std::shared_ptr<Property> Space::get_proptr(){
+  return proptr;
+}
+
+
+/*bool Space::owned_whole_Set(){
+  bool temp_bool = false;
+  for (int i = 0 ; i <  )
+}*/
+

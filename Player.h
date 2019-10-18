@@ -19,14 +19,21 @@ class Player{
   Space*& get_space_ptr();
   //Player& get_player_address();
   Space* space_ptr;
+  int position;
+  int cash;
+  void set_out_the_game();
+  bool get_in_the_game();
+  int get_asset();
+
+
+
 
  private:
   std::string name;
-  int cash;
   bool in_the_game;
   int property_worth;
   int asset;
-  int position;
   int player_id;
+
 };
 #endif //MONOPOLYC_V2_PLAYER_H

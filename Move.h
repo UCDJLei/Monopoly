@@ -9,27 +9,32 @@ class Space;
 
 class Move{
  public:
-  Move();
+  Move(GameState& gamestate);
  // Move(int turn);
   //int move_step(int dice1, int dice2);
  // Move(GameState gameState);
   Space* current_space;
   Space* new_space;
-
+  GameState* gameState;
 
   bool roll_dice;
   bool leave_game;
 
 
-  unsigned int dice1;
-  unsigned int dice2;
+   int dice1;
+   int dice2;
    int dice;
 
   int curret_position;
   int new_position;
 
-  void get_move(GameState gamestate);
-  void make_move(GameState gamestate);
+  int current_owner_id;
+  int num_round_pass_go;
 
+  void get_move(GameState& gamestate);
+  void make_move(GameState& gamestate);
+  char action;
+
+  bool property_is_owned_by_same_player(int position_ID);
 };
 #endif //MONOPOLYC_V2_MOVE_H

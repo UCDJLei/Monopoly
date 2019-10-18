@@ -22,3 +22,19 @@ Property::Property(CSVReader& reader){
   one_house_rent = reader.readNextFieldAsInt();
   hotel_rent = reader.readNextFieldAsInt();
 }
+
+
+int Property::get_rent(){
+  return rent;
+}
+
+int Property::get_cost_to_purchase(){
+  return   cost_to_purchase;
+
+}
+
+void Property::set_update_Rent(int multiplier){
+  rent = rent*multiplier;
+}
+
+

@@ -25,6 +25,6 @@ int handle_type(SpaceType space_type){
 SpaceType string2SpaceType (const std::string& typestring){
   if (typestring == "Go")
     return SpaceType::goSpace;
-  else if (typestring == "Property")
+  else
     return SpaceType::PropertySpace;
 }

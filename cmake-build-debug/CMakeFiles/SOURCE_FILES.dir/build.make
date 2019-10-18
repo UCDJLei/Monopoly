@@ -43,10 +43,10 @@ RM = /cygdrive/c/Users/LEI/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E rem
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/LEI/CLionProjects/monopoly_git
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SOURCE_FILES.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/SOURCE_FILES.dir/flags.make
 
 CMakeFiles/SOURCE_FILES.dir/main.cpp.o: CMakeFiles/SOURCE_FILES.dir/flags.make
 CMakeFiles/SOURCE_FILES.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SOURCE_FILES.dir/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/main.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SOURCE_FILES.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/main.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/main.cpp
 
 CMakeFiles/SOURCE_FILES.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SOURCE_FILES.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/main.cpp > CMakeFiles/SOURCE_FILES.dir/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/main.cpp > CMakeFiles/SOURCE_FILES.dir/main.cpp.i
 
 CMakeFiles/SOURCE_FILES.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SOURCE_FILES.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/main.cpp -o CMakeFiles/SOURCE_FILES.dir/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/main.cpp -o CMakeFiles/SOURCE_FILES.dir/main.cpp.s
 
 CMakeFiles/SOURCE_FILES.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/SOURCE_FILES.dir/main.cpp.o.provides.build: CMakeFiles/SOURCE_FILES.d
 
 CMakeFiles/SOURCE_FILES.dir/GameState.cpp.o: CMakeFiles/SOURCE_FILES.dir/flags.make
 CMakeFiles/SOURCE_FILES.dir/GameState.cpp.o: ../GameState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SOURCE_FILES.dir/GameState.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/GameState.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/GameState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SOURCE_FILES.dir/GameState.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/GameState.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/GameState.cpp
 
 CMakeFiles/SOURCE_FILES.dir/GameState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SOURCE_FILES.dir/GameState.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/GameState.cpp > CMakeFiles/SOURCE_FILES.dir/GameState.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/GameState.cpp > CMakeFiles/SOURCE_FILES.dir/GameState.cpp.i
 
 CMakeFiles/SOURCE_FILES.dir/GameState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SOURCE_FILES.dir/GameState.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/GameState.cpp -o CMakeFiles/SOURCE_FILES.dir/GameState.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/GameState.cpp -o CMakeFiles/SOURCE_FILES.dir/GameState.cpp.s
 
 CMakeFiles/SOURCE_FILES.dir/GameState.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/SOURCE_FILES.dir/GameState.cpp.o.provides.build: CMakeFiles/SOURCE_FI
 
 CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.o: CMakeFiles/SOURCE_FILES.dir/flags.make
 CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.o: ../CSVReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/CSVReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/CSVReader.cpp
 
 CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/CSVReader.cpp > CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/CSVReader.cpp > CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.i
 
 CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/CSVReader.cpp -o CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/CSVReader.cpp -o CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.s
 
 CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/SOURCE_FILES.dir/CSVReader.cpp.o.provides.build: CMakeFiles/SOURCE_FI
 
 CMakeFiles/SOURCE_FILES.dir/Space.cpp.o: CMakeFiles/SOURCE_FILES.dir/flags.make
 CMakeFiles/SOURCE_FILES.dir/Space.cpp.o: ../Space.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Space.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Space.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Space.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Space.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Space.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Space.cpp
 
 CMakeFiles/SOURCE_FILES.dir/Space.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SOURCE_FILES.dir/Space.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Space.cpp > CMakeFiles/SOURCE_FILES.dir/Space.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Space.cpp > CMakeFiles/SOURCE_FILES.dir/Space.cpp.i
 
 CMakeFiles/SOURCE_FILES.dir/Space.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SOURCE_FILES.dir/Space.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Space.cpp -o CMakeFiles/SOURCE_FILES.dir/Space.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Space.cpp -o CMakeFiles/SOURCE_FILES.dir/Space.cpp.s
 
 CMakeFiles/SOURCE_FILES.dir/Space.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/SOURCE_FILES.dir/Space.cpp.o.provides.build: CMakeFiles/SOURCE_FILES.
 
 CMakeFiles/SOURCE_FILES.dir/Board.cpp.o: CMakeFiles/SOURCE_FILES.dir/flags.make
 CMakeFiles/SOURCE_FILES.dir/Board.cpp.o: ../Board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Board.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Board.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Board.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Board.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Board.cpp
 
 CMakeFiles/SOURCE_FILES.dir/Board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SOURCE_FILES.dir/Board.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Board.cpp > CMakeFiles/SOURCE_FILES.dir/Board.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Board.cpp > CMakeFiles/SOURCE_FILES.dir/Board.cpp.i
 
 CMakeFiles/SOURCE_FILES.dir/Board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SOURCE_FILES.dir/Board.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Board.cpp -o CMakeFiles/SOURCE_FILES.dir/Board.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Board.cpp -o CMakeFiles/SOURCE_FILES.dir/Board.cpp.s
 
 CMakeFiles/SOURCE_FILES.dir/Board.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/SOURCE_FILES.dir/Board.cpp.o.provides.build: CMakeFiles/SOURCE_FILES.
 
 CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.o: CMakeFiles/SOURCE_FILES.dir/flags.make
 CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.o: ../SpaceType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/SpaceType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/SpaceType.cpp
 
 CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/SpaceType.cpp > CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/SpaceType.cpp > CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.i
 
 CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/SpaceType.cpp -o CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/SpaceType.cpp -o CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.s
 
 CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/SOURCE_FILES.dir/SpaceType.cpp.o.provides.build: CMakeFiles/SOURCE_FI
 
 CMakeFiles/SOURCE_FILES.dir/Go.cpp.o: CMakeFiles/SOURCE_FILES.dir/flags.make
 CMakeFiles/SOURCE_FILES.dir/Go.cpp.o: ../Go.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Go.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Go.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Go.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Go.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Go.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Go.cpp
 
 CMakeFiles/SOURCE_FILES.dir/Go.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SOURCE_FILES.dir/Go.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Go.cpp > CMakeFiles/SOURCE_FILES.dir/Go.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Go.cpp > CMakeFiles/SOURCE_FILES.dir/Go.cpp.i
 
 CMakeFiles/SOURCE_FILES.dir/Go.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SOURCE_FILES.dir/Go.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Go.cpp -o CMakeFiles/SOURCE_FILES.dir/Go.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Go.cpp -o CMakeFiles/SOURCE_FILES.dir/Go.cpp.s
 
 CMakeFiles/SOURCE_FILES.dir/Go.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/SOURCE_FILES.dir/Go.cpp.o.provides.build: CMakeFiles/SOURCE_FILES.dir
 
 CMakeFiles/SOURCE_FILES.dir/Property.cpp.o: CMakeFiles/SOURCE_FILES.dir/flags.make
 CMakeFiles/SOURCE_FILES.dir/Property.cpp.o: ../Property.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Property.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Property.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Property.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Property.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Property.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Property.cpp
 
 CMakeFiles/SOURCE_FILES.dir/Property.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SOURCE_FILES.dir/Property.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Property.cpp > CMakeFiles/SOURCE_FILES.dir/Property.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Property.cpp > CMakeFiles/SOURCE_FILES.dir/Property.cpp.i
 
 CMakeFiles/SOURCE_FILES.dir/Property.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SOURCE_FILES.dir/Property.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Property.cpp -o CMakeFiles/SOURCE_FILES.dir/Property.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Property.cpp -o CMakeFiles/SOURCE_FILES.dir/Property.cpp.s
 
 CMakeFiles/SOURCE_FILES.dir/Property.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/SOURCE_FILES.dir/Property.cpp.o.provides.build: CMakeFiles/SOURCE_FIL
 
 CMakeFiles/SOURCE_FILES.dir/Rules.cpp.o: CMakeFiles/SOURCE_FILES.dir/flags.make
 CMakeFiles/SOURCE_FILES.dir/Rules.cpp.o: ../Rules.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Rules.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Rules.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Rules.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Rules.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Rules.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Rules.cpp
 
 CMakeFiles/SOURCE_FILES.dir/Rules.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SOURCE_FILES.dir/Rules.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Rules.cpp > CMakeFiles/SOURCE_FILES.dir/Rules.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Rules.cpp > CMakeFiles/SOURCE_FILES.dir/Rules.cpp.i
 
 CMakeFiles/SOURCE_FILES.dir/Rules.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SOURCE_FILES.dir/Rules.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Rules.cpp -o CMakeFiles/SOURCE_FILES.dir/Rules.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Rules.cpp -o CMakeFiles/SOURCE_FILES.dir/Rules.cpp.s
 
 CMakeFiles/SOURCE_FILES.dir/Rules.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/SOURCE_FILES.dir/Rules.cpp.o.provides.build: CMakeFiles/SOURCE_FILES.
 
 CMakeFiles/SOURCE_FILES.dir/Utility.cpp.o: CMakeFiles/SOURCE_FILES.dir/flags.make
 CMakeFiles/SOURCE_FILES.dir/Utility.cpp.o: ../Utility.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Utility.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Utility.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Utility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Utility.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Utility.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Utility.cpp
 
 CMakeFiles/SOURCE_FILES.dir/Utility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SOURCE_FILES.dir/Utility.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Utility.cpp > CMakeFiles/SOURCE_FILES.dir/Utility.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Utility.cpp > CMakeFiles/SOURCE_FILES.dir/Utility.cpp.i
 
 CMakeFiles/SOURCE_FILES.dir/Utility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SOURCE_FILES.dir/Utility.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Utility.cpp -o CMakeFiles/SOURCE_FILES.dir/Utility.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Utility.cpp -o CMakeFiles/SOURCE_FILES.dir/Utility.cpp.s
 
 CMakeFiles/SOURCE_FILES.dir/Utility.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/SOURCE_FILES.dir/Utility.cpp.o.provides.build: CMakeFiles/SOURCE_FILE
 
 CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.o: CMakeFiles/SOURCE_FILES.dir/flags.make
 CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.o: ../DiceRoller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/DiceRoller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/DiceRoller.cpp
 
 CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/DiceRoller.cpp > CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/DiceRoller.cpp > CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.i
 
 CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/DiceRoller.cpp -o CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/DiceRoller.cpp -o CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.s
 
 CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/SOURCE_FILES.dir/DiceRoller.cpp.o.provides.build: CMakeFiles/SOURCE_F
 
 CMakeFiles/SOURCE_FILES.dir/Player.cpp.o: CMakeFiles/SOURCE_FILES.dir/flags.make
 CMakeFiles/SOURCE_FILES.dir/Player.cpp.o: ../Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Player.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Player.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Player.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Player.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Player.cpp
 
 CMakeFiles/SOURCE_FILES.dir/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SOURCE_FILES.dir/Player.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Player.cpp > CMakeFiles/SOURCE_FILES.dir/Player.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Player.cpp > CMakeFiles/SOURCE_FILES.dir/Player.cpp.i
 
 CMakeFiles/SOURCE_FILES.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SOURCE_FILES.dir/Player.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Player.cpp -o CMakeFiles/SOURCE_FILES.dir/Player.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Player.cpp -o CMakeFiles/SOURCE_FILES.dir/Player.cpp.s
 
 CMakeFiles/SOURCE_FILES.dir/Player.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/SOURCE_FILES.dir/Player.cpp.o.provides.build: CMakeFiles/SOURCE_FILES
 
 CMakeFiles/SOURCE_FILES.dir/Move.cpp.o: CMakeFiles/SOURCE_FILES.dir/flags.make
 CMakeFiles/SOURCE_FILES.dir/Move.cpp.o: ../Move.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Move.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Move.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Move.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SOURCE_FILES.dir/Move.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SOURCE_FILES.dir/Move.cpp.o -c /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Move.cpp
 
 CMakeFiles/SOURCE_FILES.dir/Move.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SOURCE_FILES.dir/Move.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Move.cpp > CMakeFiles/SOURCE_FILES.dir/Move.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Move.cpp > CMakeFiles/SOURCE_FILES.dir/Move.cpp.i
 
 CMakeFiles/SOURCE_FILES.dir/Move.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SOURCE_FILES.dir/Move.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/Move.cpp -o CMakeFiles/SOURCE_FILES.dir/Move.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/Move.cpp -o CMakeFiles/SOURCE_FILES.dir/Move.cpp.s
 
 CMakeFiles/SOURCE_FILES.dir/Move.cpp.o.requires:
 
@@ -403,7 +403,7 @@ SOURCE_FILES.exe: CMakeFiles/SOURCE_FILES.dir/Player.cpp.o
 SOURCE_FILES.exe: CMakeFiles/SOURCE_FILES.dir/Move.cpp.o
 SOURCE_FILES.exe: CMakeFiles/SOURCE_FILES.dir/build.make
 SOURCE_FILES.exe: CMakeFiles/SOURCE_FILES.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable SOURCE_FILES.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable SOURCE_FILES.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SOURCE_FILES.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -432,6 +432,6 @@ CMakeFiles/SOURCE_FILES.dir/clean:
 .PHONY : CMakeFiles/SOURCE_FILES.dir/clean
 
 CMakeFiles/SOURCE_FILES.dir/depend:
-	cd /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2 /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2 /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug /cygdrive/c/Users/LEI/CLionProjects/monopolyc++_V2/cmake-build-debug/CMakeFiles/SOURCE_FILES.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/LEI/CLionProjects/monopoly_git /cygdrive/c/Users/LEI/CLionProjects/monopoly_git /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug /cygdrive/c/Users/LEI/CLionProjects/monopoly_git/cmake-build-debug/CMakeFiles/SOURCE_FILES.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SOURCE_FILES.dir/depend
 

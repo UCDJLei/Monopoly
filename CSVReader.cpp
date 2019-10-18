@@ -31,9 +31,9 @@ std::string CSVReader::readUntilDelim(const std::string& delims) {
       stuff.push_back(c);
     } else{
       return stuff;
-
     }
   }
+  return "";
 }
 
 void CSVReader::skipLine() {
@@ -51,7 +51,7 @@ int CSVReader::readNextFieldAsInt() {
   std::stringstream ss(field);
   int num;
   if(!(ss >> num)){
-    std::cout << field << " wasn't a number" <<std::endl;
+    //std::cout << field << " wasn't a number" <<std::endl;
   }
   return num;
 }
@@ -65,7 +65,7 @@ int CSVReader::readNextLineAsInt() {
   std::stringstream ss(field);
   int num;
   if(!(ss >> num)){
-    std::cout << field << " wasn't a number" <<std::endl;
+   // std::cout << field << " wasn't a number" <<std::endl;
   }
   return num;
 }
@@ -80,7 +80,6 @@ int CSVReader::readNextLineAsInt() {
   return num;
 }*/
 
-
 // for reading a rule file
 
 void CSVReader::voidUntilDelim(const std::string& delims) {
@@ -88,7 +87,7 @@ void CSVReader::voidUntilDelim(const std::string& delims) {
 }
 
 int CSVReader::readNextStuffAsInt() {
-  std::string field = readNextFieldAsString();
+  std::string field = readNextStuffAsString();
   std::stringstream ss(field);
   int num;
   if(!(ss >> num)){

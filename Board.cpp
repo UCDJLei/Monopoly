@@ -3,12 +3,7 @@
 //
 #include "CSVReader.h"
 #include "Board.h"
-#include <vector>
-#include <iostream>
-#include <stdio.h>
-#include <utility>
-#include <memory>
-#include "Space.h"
+
 
 
 /*Board::Board():{
@@ -19,8 +14,8 @@ Board::Board(const std::string& board_file_name){
   CSVReader reader(board_file_name);
   reader.skipField();
   num_of_spaces = reader.readNextFieldAsInt();
-  std::cout<<"after reading number of space " << std::endl;
-  std::cout << " num_of_spaces is " << num_of_spaces<< std::endl;
+  //std::cout<<"after reading number of space " << std::endl;
+  //std::cout << " num_of_spaces is " << num_of_spaces<< std::endl;
 
   for(int i = 0; i < 4 ; i ++){
     reader.skipLine();

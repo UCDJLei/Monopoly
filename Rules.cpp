@@ -20,84 +20,86 @@ Rules:: Rules(const std::string& file_name){
 
   CSVReader reader(file_name);
 
-  //reader.readUntilDelim(":");
+ //reader.readUntilDelim(":");
   //reader.readUntilDelim(" ");
-  reader.voidUntilDelim(": ");
-  int starting_cash = reader.readNextStuffAsInt();
+  reader.voidUntilDelim(":");
+  reader.voidUntilDelim(" ");
+
+  starting_cash = reader.readNextStuffAsInt();
+  //std::cout<< "starting_cash is " << starting_cash << std:: endl;  //this works
+
+  //std::string token = reader.readUntilDelim("\n");
+  //std::cout << "in rules file:" << token << std::endl;
 
   reader.readUntilDelim(":");
   reader.readUntilDelim(" ");
-  int turn_limit = reader.readNextFieldAsInt();
-
-  reader.readUntilDelim(":");
-  reader.readUntilDelim(" ");
-  int number_of_players_left_to_end_game= reader.readNextFieldAsInt();
-
-  reader.readUntilDelim(":");
-  reader.readUntilDelim(" ");
-  int property_set_multiplier =reader.readNextFieldAsInt();
-
-  reader.readUntilDelim(":");
-  reader.readUntilDelim(" ");
-  int number_of_houses_before_hotels =reader.readNextFieldAsInt();
-
-  reader.readUntilDelim(":");
-  reader.readUntilDelim(" ");
-  std::string temp = reader.readNextFieldAsString();
-  bool must_build_houses_evenly = is_yes(temp);
-
-  reader.readUntilDelim(":");
-  reader.readUntilDelim(" ");
-  temp = reader.readNextFieldAsString();
-  bool put_money_mn_free_parking = is_yes(temp);
-
-  reader.readUntilDelim(":");
-  reader.readUntilDelim(" ");
-  temp = reader.readNextFieldAsString();
-  bool auction_properties = is_yes(temp);
-
-  reader.readUntilDelim(":");
-  reader.readUntilDelim(" ");
-  int salary_multiplier_for_landing_on_go = reader.readNextFieldAsInt();
-
-
-
-  /*// open file and transfer content from file_name to rule_file
-  std::ifstream rules_file;
-  rules_file.open(file_name);
-
-  if(rules_file.fail()){
-    printf("Failed to open rules file %s\n. Using default rules\n", file_name);
-   // return Rules();//need a function to do this maybe
-
-  }
-
-  //rules.num_dice_rolled  = 2;
-  //rules.max_dice_value = 6;
-
-  fscanf(rules_file, " Starting Cash: %d", &starting_cash);
-  fscanf(rules_file, " Turn Limit ( -1 for no turn limit ) : %d", &turn_limit);
-
+  turn_limit = reader.readNextFieldAsInt();
   if (turn_limit == -1)
-    turn_limit = 2000000000;
+    turn_limit = 200000000;
+ // std::cout<< "turn_limit is " << turn_limit << std:: endl;  //this works
 
-  fscanf(rules_file, " Number of Players Left To End Game: %d", &number_of_players_left_to_end_game);
-  fscanf(rules_file, " Property Set Multiplier: %d", &property_set_multiplier);
-  fscanf(rules_file, " Number of Houses Before Hotels: %d", &number_of_houses_before_hotels);
-  std::string temp;
-  fscanf(file_name, "Must Build Houses Evenly: %s\n", temp);
+
+  reader.readUntilDelim(":");
+  reader.readUntilDelim(" ");
+  number_of_players_left_to_end_game= reader.readNextFieldAsInt();
+
+  reader.readUntilDelim(":");
+  reader.readUntilDelim(" ");
+  property_set_multiplier =reader.readNextFieldAsInt();
+
+  reader.readUntilDelim(":");
+  reader.readUntilDelim(" ");
+  number_of_houses_before_hotels =reader.readNextFieldAsInt();
+
+  reader.readUntilDelim(":");
+  reader.readUntilDelim(" ");   //FAIL
+  std::string temp = reader.readNextFieldAsString();
   must_build_houses_evenly = is_yes(temp);
-  fscanf(file_name, "Put Money In Free Parking: %s\n", temp);
+
+  reader.readUntilDelim(":");
+  reader.readUntilDelim(" ");
+  temp = reader.readNextFieldAsString();
   put_money_mn_free_parking = is_yes(temp);
-  fscanf(file_name, "Auction Properties: %s\n", temp);
+
+  reader.readUntilDelim(":");
+  reader.readUntilDelim(" ");
+  temp = reader.readNextFieldAsString();
   auction_properties = is_yes(temp);
 
+  reader.readUntilDelim(":");
+  reader.readUntilDelim(" ");
+  //fscanf(reader.file,"%d",&salary_multiplier_for_landing_on_go);
+  reader.file >> salary_multiplier_for_landing_on_go;
+  //std::cout << "reading multiplier: " << salary_multiplier_for_landing_on_go << std::endl;
+  //salary_multiplier_for_landing_on_go =
+ //salary_multiplier_for_landing_on_go = reader.readNextStuffAsInt();
 
-  fscanf(file_name, "Salary Multiplier For Landing On Go: %d", &salary_multiplier_for_landing_on_go);
-
-  rules_file.clear();
-   */
 }
+
+int Rules::get_salary_multiplier_for_landing_on_go(){
+    return salary_multiplier_for_landing_on_go;
+}
+
+int Rules::get_starting_cash(){
+  return starting_cash;
+
+}
+
+int Rules::get_turn_limit(){
+  return turn_limit;
+}
+
+int Rules::get_number_of_players_left_to_end_game(){
+  return number_of_players_left_to_end_game;
+}
+
+int Rules::get_property_set_multiplier(){
+  return  property_set_multiplier;
+}
+
+
+
+
 
 
 

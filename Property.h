@@ -14,11 +14,14 @@ class Property{
  public:
     Property();
     Property(CSVReader& reader);
-    std::string name;
- private:
+    void set_update_Rent(int multiplier);
+  int get_rent();
+  int get_cost_to_purchase();
+
     int set_id;
     int intra_set_id;
 
+  std::string name;
 
     int cost_to_purchase;
     int cost_to_buy_house;
@@ -27,6 +30,7 @@ class Property{
     int rent;
     int one_house_rent;
     int hotel_rent;
+    int set_rent;
 
     //Player* playerptr;
 

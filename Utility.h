@@ -9,8 +9,7 @@
 #ifndef MONOPOLYC_V2_UTILITY_H
 #define MONOPOLYC_V2_UTILITY_H
 bool is_yes(std::string& temp);
-bool is_game_over(GameState gameState);
-void display_game_state(GameState gamestate);
+//bool is_game_over(GameState gameState);
 
 
 
